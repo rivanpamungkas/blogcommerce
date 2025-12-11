@@ -1,0 +1,28 @@
+/* Button Styles */
+.cta-button {
+    display: inline-block;
+    padding: 12px 30px;
+    background: var(--accent-color);
+    color: var(--text-color);
+    text-decoration: none;
+    border-radius: 50px;
+    border: 2px solid var(--text-color);
+    transition: all 0.3s ease;
+    font-weight: 600;
+}
+
+.cta-button:hover {
+    background: #3A5AD9;
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+
+.cta-button.secondary {
+    background: transparent;
+    border-color: var(--text-color);
+}
+
+.cta-button.secondary:hover {
+    background: var(--text-color);
+    color: var(--primary-color);
+}

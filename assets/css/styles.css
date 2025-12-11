@@ -29,66 +29,6 @@ body {
     padding: 0 20px;
 }
 
-
-
-/* Hero Section */
-.hero {
-    background: linear-gradient(135deg, var(--primary-color), #003366);
-    padding: 120px 0 80px;
-    text-align: center;
-}
-
-.hero-content h1 {
-    font-size: 3rem;
-    margin-bottom: 1rem;
-    background: linear-gradient(45deg, var(--secondary-color), var(--accent-color));
-    -webkit-background-clip: text;
-    background-clip: text; /* Standar modern */
-    -webkit-text-fill-color: transparent;
-}
-
-.hero-content p {
-    font-size: 1.2rem;
-    margin-bottom: 2rem;
-    opacity: 0.9;
-}
-
-.hero-buttons {
-    display: flex;
-    gap: 1rem;
-    justify-content: center;
-    flex-wrap: wrap;
-}
-
-/* Button Styles */
-.cta-button {
-    display: inline-block;
-    padding: 12px 30px;
-    background: var(--accent-color);
-    color: var(--text-color);
-    text-decoration: none;
-    border-radius: 50px;
-    border: 2px solid var(--text-color);
-    transition: all 0.3s ease;
-    font-weight: 600;
-}
-
-.cta-button:hover {
-    background: #3A5AD9;
-    transform: translateY(-2px);
-    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
-}
-
-.cta-button.secondary {
-    background: transparent;
-    border-color: var(--text-color);
-}
-
-.cta-button.secondary:hover {
-    background: var(--text-color);
-    color: var(--primary-color);
-}
-
 /* About Section */
 .about {
     padding: 80px 0;
