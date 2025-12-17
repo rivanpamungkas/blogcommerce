@@ -157,6 +157,19 @@ header .container {
     border-radius: 50%;
 }
 
+/* Services Section */
+.services {
+    padding: 80px 0;
+    background: var(--primary-color);
+}
+
+.services h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 3rem;
+    color: var(--secondary-color);
+}
+
 /* Portfolio Section */
 .portfolio {
     padding: 80px 0;
@@ -174,19 +187,6 @@ header .container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
     gap: 2rem;
-}
-
-/* Services Section */
-.services {
-    padding: 80px 0;
-    background: var(--primary-color);
-}
-
-.services h2 {
-    text-align: center;
-    font-size: 2.5rem;
-    margin-bottom: 3rem;
-    color: var(--secondary-color);
 }
 
 /* Contact Section */
