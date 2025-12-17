@@ -175,3 +175,85 @@ header .container {
     grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
     gap: 2rem;
 }
+
+/* Services Section */
+.services {
+    padding: 80px 0;
+    background: var(--primary-color);
+}
+
+.services h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 3rem;
+    color: var(--secondary-color);
+}
+
+/* Contact Section */
+.contact {
+    padding: 80px 0;
+    background: var(--primary-color);
+}
+
+.contact h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 3rem;
+    color: var(--secondary-color);
+}
+
+.contact-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 3rem;
+}
+
+.contact-info h3 {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+    color: var(--secondary-color);
+}
+
+/* Footer */
+footer {
+    background: var(--background-color);
+    padding: 3rem 0 1rem;
+    border-top: 2px solid var(--border-color);
+}
+
+.footer-content {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    gap: 3rem;
+    margin-bottom: 2rem;
+}
+
+.footer-info .logo {
+    margin-bottom: 1rem;
+}
+
+.footer-links h4,
+.footer-social h4 {
+    margin-bottom: 1rem;
+    color: var(--secondary-color);
+}
+
+.footer-links ul {
+    list-style: none;
+}
+
+.footer-links a {
+    color: var(--text-color);
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.footer-links a:hover {
+    color: var(--accent-color);
+}
+
+.footer-bottom {
+    text-align: center;
+    padding-top: 2rem;
+    border-top: 1px solid var(--border-color);
+}
